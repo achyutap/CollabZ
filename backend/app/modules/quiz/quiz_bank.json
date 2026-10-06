@@ -1,0 +1,794 @@
+[
+ {
+  "skill": "python",
+  "question": "Which keyword defines a function in Python?",
+  "options": [
+   "def",
+   "func",
+   "function",
+   "lambda def"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "python",
+  "question": "What does len([1, 2, 3]) return?",
+  "options": [
+   "2",
+   "3",
+   "4",
+   "It raises an error"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "python",
+  "question": "Which of these built-in types is immutable?",
+  "options": [
+   "list",
+   "dict",
+   "tuple",
+   "set"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "python",
+  "question": "What does list(range(3)) produce?",
+  "options": [
+   "[1, 2, 3]",
+   "[0, 1, 2, 3]",
+   "[0, 1]",
+   "[0, 1, 2]"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "python",
+  "question": "Which statement pair is used to handle exceptions?",
+  "options": [
+   "try / except",
+   "try / catch",
+   "if / else",
+   "handle / end"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "python",
+  "question": "What does 'a,b'.split(',') return?",
+  "options": [
+   "['a,b']",
+   "['a', 'b']",
+   "['a b']",
+   "'ab'"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "fastapi",
+  "question": "Which decorator declares a GET route in FastAPI?",
+  "options": [
+   "@app.route_get('/path')",
+   "@app.get('/path')",
+   "@get.app('/path')",
+   "@app.fetch('/path')"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "fastapi",
+  "question": "Which library does FastAPI use for request body validation?",
+  "options": [
+   "Marshmallow",
+   "Cerberus",
+   "Pydantic",
+   "Django Forms"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "fastapi",
+  "question": "What is the default path of the interactive Swagger docs?",
+  "options": [
+   "/swagger-ui",
+   "/api-docs",
+   "/help",
+   "/docs"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "fastapi",
+  "question": "Which command starts a FastAPI app defined as app in main.py during development?",
+  "options": [
+   "uvicorn main:app --reload",
+   "flask run",
+   "npm start",
+   "django-admin runserver"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "fastapi",
+  "question": "Which class is used to return an HTTP error from an endpoint?",
+  "options": [
+   "HttpError",
+   "HTTPException",
+   "AbortRequest",
+   "ResponseError"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "fastapi",
+  "question": "How is a path parameter declared in a FastAPI route?",
+  "options": [
+   "/items/<item_id>",
+   "/items/:item_id",
+   "/items/{item_id}",
+   "/items/[item_id]"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "react",
+  "question": "Which hook adds local state to a function component?",
+  "options": [
+   "useData",
+   "useVar",
+   "useState",
+   "useStore"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "react",
+  "question": "What does JSX stand for?",
+  "options": [
+   "JavaScript Extension",
+   "Java Syntax Extension",
+   "JSON XML",
+   "JavaScript XML"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "react",
+  "question": "Which prop gives list items a stable identity when rendering arrays?",
+  "options": [
+   "key",
+   "id",
+   "ref",
+   "index"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "react",
+  "question": "Which hook is intended for running side effects such as data fetching?",
+  "options": [
+   "useMemo",
+   "useEffect",
+   "useId",
+   "useLayoutRender"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "react",
+  "question": "How does a parent component normally pass data to a child?",
+  "options": [
+   "Through cookies",
+   "Through lifecycle names",
+   "Through props",
+   "Through DOM events only"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "react",
+  "question": "How must React component names start?",
+  "options": [
+   "With a lowercase letter",
+   "With an underscore",
+   "With a digit",
+   "With an uppercase letter"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "html_css",
+  "question": "Which tag defines the largest default heading?",
+  "options": [
+   "<h6>",
+   "<head>",
+   "<header>",
+   "<h1>"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "html_css",
+  "question": "Which CSS property sets the text colour?",
+  "options": [
+   "color",
+   "text-color",
+   "font-color",
+   "foreground"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "html_css",
+  "question": "Which element creates a hyperlink?",
+  "options": [
+   "<link>",
+   "<a>",
+   "<href>",
+   "<url>"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "html_css",
+  "question": "What does display: flex enable?",
+  "options": [
+   "Hides the element",
+   "Makes text bold",
+   "A flexible box layout for children",
+   "Floats the element"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "html_css",
+  "question": "Which selector targets an element with id=\"menu\"?",
+  "options": [
+   ".menu",
+   "*menu",
+   "@menu",
+   "#menu"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "html_css",
+  "question": "What is the CSS box model order from the inside out?",
+  "options": [
+   "content, padding, border, margin",
+   "content, margin, padding, border",
+   "padding, content, border, margin",
+   "border, padding, content, margin"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "javascript",
+  "question": "What does typeof null return?",
+  "options": [
+   "\"object\"",
+   "\"null\"",
+   "\"undefined\"",
+   "\"number\""
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "javascript",
+  "question": "Which operator checks equality without type coercion?",
+  "options": [
+   "==",
+   "===",
+   "=",
+   "!="
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "javascript",
+  "question": "Which array method returns a new array of transformed items?",
+  "options": [
+   "forEach",
+   "push",
+   "map",
+   "splice"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "javascript",
+  "question": "What does declaring a variable with const prevent?",
+  "options": [
+   "Changing object properties",
+   "Using the variable in functions",
+   "Hoisting",
+   "Reassigning the variable"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "javascript",
+  "question": "What does JSON.parse do?",
+  "options": [
+   "Converts a JSON string into a JavaScript value",
+   "Converts an object into a JSON string",
+   "Reads a file from disk",
+   "Sends an HTTP request"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "javascript",
+  "question": "What does await do inside an async function?",
+  "options": [
+   "Blocks the whole browser thread",
+   "Pauses the function until the promise settles",
+   "Starts a new thread",
+   "Cancels the promise"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "sql",
+  "question": "Which statement reads rows from a table?",
+  "options": [
+   "GET",
+   "SELECT",
+   "FETCH",
+   "EXTRACT"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "sql",
+  "question": "Which clause filters rows before grouping?",
+  "options": [
+   "LIMIT",
+   "ORDER BY",
+   "WHERE",
+   "GROUP BY"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "sql",
+  "question": "What does COUNT(*) return?",
+  "options": [
+   "The sum of a column",
+   "The average of a column",
+   "The largest value",
+   "The number of rows"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "sql",
+  "question": "Which join returns only rows that match in both tables?",
+  "options": [
+   "INNER JOIN",
+   "LEFT JOIN",
+   "CROSS JOIN",
+   "FULL OUTER JOIN"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "sql",
+  "question": "Which constraint uniquely identifies each row?",
+  "options": [
+   "FOREIGN KEY",
+   "PRIMARY KEY",
+   "CHECK",
+   "DEFAULT"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "sql",
+  "question": "What is GROUP BY used for?",
+  "options": [
+   "Sorting rows",
+   "Limiting the number of rows",
+   "Aggregating rows that share a value",
+   "Renaming columns"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "ml",
+  "question": "Supervised learning is trained on what kind of data?",
+  "options": [
+   "No data at all",
+   "Only images",
+   "Labeled examples",
+   "Only rewards"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "ml",
+  "question": "What is overfitting?",
+  "options": [
+   "Doing poorly on training data",
+   "Training too fast",
+   "Having too large a dataset",
+   "Doing well on training data but poorly on new data"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "ml",
+  "question": "Why do we split data into train and test sets?",
+  "options": [
+   "To estimate performance on unseen data",
+   "To make training faster",
+   "To remove outliers",
+   "To double the dataset"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "ml",
+  "question": "A classification model predicts what?",
+  "options": [
+   "Continuous numbers",
+   "Discrete class labels",
+   "Cluster counts",
+   "Pixel values"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "ml",
+  "question": "What kind of algorithm is k-means?",
+  "options": [
+   "Supervised classification",
+   "Reinforcement learning",
+   "Unsupervised clustering",
+   "Linear regression"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "ml",
+  "question": "What does gradient descent do?",
+  "options": [
+   "Sorts the dataset",
+   "Picks features randomly",
+   "Splits a decision tree",
+   "Iteratively adjusts parameters to reduce loss"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "data_analysis",
+  "question": "What is the median of a data set?",
+  "options": [
+   "The average",
+   "The most frequent value",
+   "The range",
+   "The middle value when sorted"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "data_analysis",
+  "question": "What is the main tabular structure in pandas?",
+  "options": [
+   "DataFrame",
+   "Tensor",
+   "Cursor",
+   "Sheetset"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "data_analysis",
+  "question": "What is an outlier?",
+  "options": [
+   "A missing value",
+   "A value far from most others",
+   "A duplicate row",
+   "The mean"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "data_analysis",
+  "question": "What does a correlation of -1 mean?",
+  "options": [
+   "No relationship",
+   "A perfect positive linear relationship",
+   "A perfect negative linear relationship",
+   "Proof of causation"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "data_analysis",
+  "question": "Which chart best shows the distribution of one numeric variable?",
+  "options": [
+   "Pie chart",
+   "Network graph",
+   "Treemap of categories",
+   "Histogram"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "data_analysis",
+  "question": "Which is a common way to handle missing values?",
+  "options": [
+   "Impute them or drop the affected rows",
+   "Replace them with random text",
+   "Delete the whole dataset",
+   "Multiply by zero"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "iot",
+  "question": "What is MQTT?",
+  "options": [
+   "A lightweight publish/subscribe messaging protocol",
+   "An image format",
+   "A relational database",
+   "A video codec"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "iot",
+  "question": "What does a sensor do?",
+  "options": [
+   "Converts a signal into motion",
+   "Converts a physical quantity into an electrical signal",
+   "Encrypts network traffic",
+   "Routes packets"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "iot",
+  "question": "What is an actuator?",
+  "options": [
+   "A device that measures temperature",
+   "A cloud database",
+   "A device that causes a physical action",
+   "A wireless antenna only"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "iot",
+  "question": "What is LoRaWAN designed for?",
+  "options": [
+   "Short-range high-bandwidth video",
+   "Wired industrial ethernet",
+   "Optical fibre links",
+   "Long-range, low-power wireless communication"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "iot",
+  "question": "What is edge computing?",
+  "options": [
+   "Processing data close to where it is produced",
+   "Processing only in a distant data centre",
+   "Storing data on paper",
+   "Compressing images"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "iot",
+  "question": "Which is a popular Wi-Fi capable microcontroller for IoT projects?",
+  "options": [
+   "Core i9",
+   "ESP32",
+   "GeForce RTX",
+   "Xeon"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "embedded_c",
+  "question": "What does the volatile qualifier tell the compiler?",
+  "options": [
+   "The value never changes",
+   "The value may change outside the program's normal flow",
+   "The variable lives in flash",
+   "The variable is faster"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "embedded_c",
+  "question": "What is sizeof(char) in C?",
+  "options": [
+   "2",
+   "4",
+   "1",
+   "It depends on the CPU"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "embedded_c",
+  "question": "What does a pointer store?",
+  "options": [
+   "A file name",
+   "A floating point value",
+   "A function return type",
+   "A memory address"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "embedded_c",
+  "question": "What does ISR stand for in embedded programming?",
+  "options": [
+   "Interrupt Service Routine",
+   "Internal System Register",
+   "Input Signal Receiver",
+   "Instruction Set Routine"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "embedded_c",
+  "question": "Which statement sets bit n of x?",
+  "options": [
+   "x &= (1u << n);",
+   "x |= (1u << n);",
+   "x &= ~(1u << n);",
+   "x = ~(1u << n);"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "embedded_c",
+  "question": "What does GPIO stand for?",
+  "options": [
+   "Global Program I/O",
+   "General Protocol Interface Output",
+   "General-Purpose Input/Output",
+   "Grounded Power Input Output"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "ui_design",
+  "question": "What does good colour contrast improve?",
+  "options": [
+   "Server speed",
+   "Database size",
+   "Readability",
+   "Battery life"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "ui_design",
+  "question": "What is a wireframe?",
+  "options": [
+   "The final production code",
+   "A brand logo",
+   "A user survey",
+   "A low-fidelity layout sketch of a screen"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "ui_design",
+  "question": "What does Fitts's law state about targets?",
+  "options": [
+   "Larger and closer targets are faster to hit",
+   "Smaller targets are easier to hit",
+   "Colour determines click speed",
+   "Menus should be hidden"
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "ui_design",
+  "question": "What is visual hierarchy?",
+  "options": [
+   "Using only one font size",
+   "Arranging elements to show their relative importance",
+   "Placing everything at the top",
+   "Removing all whitespace"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "ui_design",
+  "question": "Why is consistency important in UI design?",
+  "options": [
+   "It makes each screen unique",
+   "It removes the need for labels",
+   "Similar actions look and behave the same way",
+   "It reduces file sizes"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "ui_design",
+  "question": "What minimum contrast ratio does WCAG AA require for normal body text?",
+  "options": [
+   "1.5:1",
+   "3:1",
+   "10:1",
+   "4.5:1"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "technical_writing",
+  "question": "What is the primary goal of technical writing?",
+  "options": [
+   "Impressing readers with vocabulary",
+   "Making documents long",
+   "Hiding complexity",
+   "Clear and accurate communication"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "technical_writing",
+  "question": "Which sentence is in the active voice?",
+  "options": [
+   "The server processes the request.",
+   "The request is processed by the server.",
+   "The request was being processed.",
+   "Processing was done."
+  ],
+  "answer_index": 0
+ },
+ {
+  "skill": "technical_writing",
+  "question": "What should a README include at minimum?",
+  "options": [
+   "Only the license text",
+   "What the project does and how to run it",
+   "The author's résumé",
+   "Private credentials"
+  ],
+  "answer_index": 1
+ },
+ {
+  "skill": "technical_writing",
+  "question": "Why analyse your audience before writing?",
+  "options": [
+   "To make the text longer",
+   "To avoid headings",
+   "To match content and detail to what readers know",
+   "To use more jargon"
+  ],
+  "answer_index": 2
+ },
+ {
+  "skill": "technical_writing",
+  "question": "When is a numbered list the best choice?",
+  "options": [
+   "For unrelated ideas",
+   "For long paragraphs",
+   "For decorative layout",
+   "For steps that must be followed in order"
+  ],
+  "answer_index": 3
+ },
+ {
+  "skill": "technical_writing",
+  "question": "What does a changelog record?",
+  "options": [
+   "Notable changes between versions",
+   "Server passwords",
+   "Marketing slogans",
+   "Employee schedules"
+  ],
+  "answer_index": 0
+ }
+]
